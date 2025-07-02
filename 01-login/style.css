@@ -49,3 +49,11 @@ img {
   color: white;
   border: none;
 }
+
+#link-signup {
+  font-size: 0.8rem;
+  text-align: right;
+}
+a {
+  color: black;
+}
