@@ -28,6 +28,22 @@ login/
 ├── index.html
 └── style.css
 
+### 2. [Signup Page](./signup/index.html)
+
+A user registration form built with HTML and CSS.
+
+**Features:**
+
+- Input fields: name, username, password, password check, birth date, phone number
+- Gender selection with radio buttons
+- Submit button with basic styling
+- Shared form styling using `.login-form` and `.submit-input` classes
+
+**File Structure:**
+signup/
+├── index.html
+└── style.css
+
 ## 🛠️ Technologies Used
 
 - HTML5
