@@ -22,7 +22,7 @@ button {
   flex-direction: column;
 }
 .login-form {
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 .submit-input {
   width: 100%;
