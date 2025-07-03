@@ -10,9 +10,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-label {
-  display: none;
-}
 button {
   cursor: pointer;
 }
@@ -32,8 +29,11 @@ img {
   width: 40vw;
   margin-bottom: 2vh;
 }
-#login-form {
+.login-form {
   font-size: 1rem;
+}
+.login-label {
+  display: none;
 }
 .submit-input {
   width: 100%;
