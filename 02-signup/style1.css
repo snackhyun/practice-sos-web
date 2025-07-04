@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  top: 0;
+}
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+}
+.back-button {
+  height: 100%;
+  aspect-ratio: 1/1;
+  background-color: white;
+  font-size: 2rem;
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+.page-title {
+  flex: 1;
+  font-size: 1rem;
+}
+.signup-container {
+  width: 100%;
+}
+.signup-form {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+.signup-input {
+  flex: 1;
+  width: 100%;
+  margin-bottom: 3vh;
+  padding: 1vh;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+label {
+  display: none;
+}
+
+.row-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 2vh;
+  padding: 1vh;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.visible-label {
+  display: block;
+  color: rgb(113, 113, 113);
+  left: 0;
+}
+.gender-options {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 3rem;
+}
+.gender-options label {
+  display: flex;
+  align-items: center;
+  color: rgb(113, 113, 113);
+  gap: 1rem;
+}
+.submit-button {
+  width: 100%;
+  padding: 0.5vh;
+  background-color: #b5191a;
+  color: white;
+  border: none;
+}
